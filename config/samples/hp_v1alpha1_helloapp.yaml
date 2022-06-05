@@ -1,0 +1,9 @@
+apiVersion: hp.mavrodiev/v1alpha1
+kind: HelloApp
+metadata:
+  name: helloapp-sample
+  namespace: default
+spec:
+  replicas: 1
+  port: 8080
+  image: hmavrodiev/hello-app:latest
